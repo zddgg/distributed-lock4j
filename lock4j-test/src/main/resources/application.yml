@@ -1,0 +1,11 @@
+spring:
+  redis:
+    host: 127.0.0.1
+    password: 123456
+
+distributed:
+  lock:
+    center: redis
+    expire-time: 30000
+    wait-time: 3000 #默认值，可不设置
+    primary-executor: com.zddgg.lock.redis.RedisTemplateLockExecutor #默认redisson>redisTemplate>zookeeper
