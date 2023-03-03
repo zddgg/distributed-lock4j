@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.zddgg.lock.core.autoconfigure.LockAutoConfiguration,\
+com.zddgg.lock.redis.RedisTemplateLockAutoConfiguration

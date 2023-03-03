@@ -1,0 +1,2 @@
+com.zddgg.lock.core.autoconfigure.LockAutoConfiguration
+com.zddgg.lock.redis.RedisTemplateLockAutoConfiguration
